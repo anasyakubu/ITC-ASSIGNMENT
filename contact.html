@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website - Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Get in Touch</h2>
+        <p class="contact-intro">
+          We'd love to hear from you! Whether you're a prospective student,
+          alumni, or just have a question, please feel free to reach out.
+        </p>
+        <p id="contact-info">
+          You can also contact us directly at admissions@ouruniversity.edu or
+          call us at (123) 456-7890.
+        </p>
+      </section>
+
+      <section>
+        <h2>Student Affairs Office</h2>
+        <img
+          src="https://via.placeholder.com/400x300"
+          alt="Student Affairs Building"
+          class="campus-image"
+        />
+        <p>
+          Our Student Affairs office is here to support you throughout your
+          academic journey.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required />
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required />
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required />
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required />
+
+            <label for="decade">Favorite Decade:</label>
+            <input
+              type="number"
+              id="decade"
+              name="decade"
+              min="1900"
+              max="2020"
+              step="10"
+              required
+            />
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferences</legend>
+            <p>Choose your best pet:</p>
+            <input type="radio" id="dog" name="pet" value="dog" required />
+            <label for="dog">Dog</label>
+            <input type="radio" id="cat" name="pet" value="cat" />
+            <label for="cat">Cat</label>
+            <input type="radio" id="bird" name="pet" value="bird" />
+            <label for="bird">Bird</label>
+
+            <p>Select your best lecturers:</p>
+            <input type="checkbox" id="smith" name="lecturer" value="smith" />
+            <label for="smith">Dr. Smith</label>
+            <input
+              type="checkbox"
+              id="johnson"
+              name="lecturer"
+              value="johnson"
+            />
+            <label for="johnson">Prof. Johnson</label>
+            <input
+              type="checkbox"
+              id="williams"
+              name="lecturer"
+              value="williams"
+            />
+            <label for="williams">Dr. Williams</label>
+
+            <label for="program">Select your program:</label>
+            <select id="program" name="program" required>
+              <option value="">Select a program</option>
+              <option value="cs">Computer Science</option>
+              <option value="business">Business Administration</option>
+              <option value="biology">Biology</option>
+              <option value="engineering">Engineering</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Feedback</legend>
+            <label for="feedback">Leave your feedback:</label>
+            <textarea
+              id="feedback"
+              name="feedback"
+              rows="4"
+              cols="50"
+            ></textarea>
+          </fieldset>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Our University. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,242 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  /* position: fixed;
+  bottom: 0; */
+  /* width: 100%; */
+}
+
+/* Typography */
+h2 {
+  color: #003366;
+  border-bottom: 2px solid #003366;
+  padding-bottom: 10px;
+}
+
+.intro,
+#mission,
+.history,
+#values,
+.program-intro,
+#program-highlight,
+.contact-intro,
+#contact-info {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+#mission,
+#values,
+#program-highlight,
+#contact-info {
+  font-style: italic;
+  color: #666;
+}
+
+/* Images */
+.campus-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Lists */
+ul,
+ol,
+dl {
+  margin-left: 20px;
+}
+
+ul li,
+ol li {
+  margin-bottom: 5px;
+}
+
+dl dt {
+  font-weight: bold;
+  color: #003366;
+}
+
+dl dd {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #003366;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Form Styles */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+legend {
+  color: #003366;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #003366;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00254d;
+}
+
+button[type="reset"] {
+  background-color: #ccc;
+  color: #333;
+  margin-left: 10px;
+}
+
+button[type="reset"]:hover {
+  background-color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  header {
+    padding: 0.5rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  table,
+  th,
+  td {
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="password"],
+  select,
+  textarea {
+    font-size: 16px; /* Prevents zoom on mobile devices */
+  }
+}

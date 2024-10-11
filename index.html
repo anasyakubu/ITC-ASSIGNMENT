@@ -9,6 +9,7 @@
   <body>
     <header>
       <h1>Welcome to Our University</h1>
+      <button class="menu-toggle">☰</button>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -61,5 +62,13 @@
     <footer>
       <p>&copy; 2024 Our University. All rights reserved.</p>
     </footer>
+
+    <script>
+      document
+        .querySelector(".menu-toggle")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.toggle("show");
+        });
+    </script>
   </body>
 </html>

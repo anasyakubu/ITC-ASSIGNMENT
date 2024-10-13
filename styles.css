@@ -19,7 +19,6 @@ header h1 {
   margin: 0;
 }
 
-/* Updated Navigation Styles */
 nav {
   background-color: #002244;
 }
@@ -96,9 +95,6 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 1rem;
-  /* position: fixed;
-  bottom: 0; */
-  /* width: 100%; */
 }
 
 /* Typography */

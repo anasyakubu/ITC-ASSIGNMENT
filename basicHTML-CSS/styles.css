@@ -8,8 +8,11 @@ body {
 header {
   background-color: #5348af;
   color: white;
-  padding: 10px 0;
+  padding: 10px 5px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*to change the gallery header to green*/

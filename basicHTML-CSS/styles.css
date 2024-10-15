@@ -1,0 +1,174 @@
+/*general styling*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #5348af;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*to change the gallery header to green*/
+#greenBg {
+  background-color: #48af76;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*to change the contact header to brown*/
+#brownBg {
+  background-color: #af8e48;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/*to change the about header to red*/
+#redBg {
+  background-color: #af4f48;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/*styles for homepage*/
+#main {
+  font-size: 3.3em;
+  font-family: serif;
+  text-shadow: 2px 6px 9px rgba(0, 0, 0, 0.336),
+    4px 6px 6px rgba(54, 42, 223, 0.24);
+}
+
+.homePageText {
+  font-size: 27px;
+  font-weight: 500;
+  color: darkblue;
+}
+
+table {
+  background-color: #0003;
+}
+
+th,
+td {
+  padding: 12px 15px;
+}
+
+/*styles for About page */
+#about {
+  font-size: 3.3em;
+  font-family: serif;
+  text-shadow: 2px 6px 9px rgba(97, 20, 20, 0.336),
+    4px 6px 6px rgba(0, 0, 0, 0.336);
+}
+
+.Learn {
+  font-size: 27px;
+  font-weight: 500;
+  color: rgb(139, 0, 0);
+}
+
+/*styles for gallery*/
+#gallery {
+  font-size: 3.3em;
+  font-family: serif;
+  text-shadow: 2px 6px 9px rgba(22, 83, 32, 0.336),
+    4px 6px 6px rgba(0, 0, 0, 0.336);
+}
+
+.green {
+  color: #48af76;
+}
+
+/*styles for contact page*/
+#contact {
+  font-size: 3.3em;
+  font-family: serif;
+  text-shadow: 2px 6px 9px #af8e48ab, 4px 6px 6px rgba(0, 0, 0, 0.336);
+}
+
+.formtype {
+  font-size: 27px;
+  font-weight: 500;
+  color: burlywood;
+}
+
+.formInput {
+  font-size: 23px;
+  font-weight: 500;
+  color: #aa8e51;
+}
+
+fieldset {
+  border: 2px solid #ccc;
+  padding: 10px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #333;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #af4f48;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="brownBg">
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2 id="contact">Contact Form</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="fname" required /><br />
+
+          <label for="lname">Surname:</label>
+          <input type="text" id="lname" name="lname" required /><br />
+
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required /><br />
+
+          <label for="gender">Gender:</label>
+          <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="Male"
+            required
+          />Male
+          <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="Female"
+            required
+          />Female<br />
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required /><br />
+
+          <label for="decade">Favorite Decade:</label>
+          <input type="text" id="decade" name="decade" required /><br />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferences</legend>
+          <label for="pet">Favorite Pet:</label><br />
+          <input type="radio" id="cat" name="pet" value="Cat" required />Cat
+          <input
+            type="radio"
+            id="dog"
+            name="pet"
+            value="Dog"
+            required
+          />Dog<br />
+
+          <label for="lecturers">Best Lecturers:</label><br />
+          <input
+            type="checkbox"
+            id="lecturer1"
+            name="lecturer"
+            value="Lecturer 1"
+          />Lecturer 1
+          <input
+            type="checkbox"
+            id="lecturer2"
+            name="lecturer"
+            value="Lecturer 2"
+          />Lecturer 2<br />
+
+          <label for="program">Select Program:</label>
+          <select id="program" name="program">
+            <option value="cs">Computer Science</option>
+            <option value="it">Information Technology</option></select
+          ><br />
+
+          <label for="feedback">Feedback:</label><br />
+          <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea
+          ><br />
+
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </fieldset>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 BUK. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
